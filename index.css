@@ -1,0 +1,120 @@
+.logo {
+    display: block;
+    margin-left: 40%;
+    margin-top: 12%;
+    margin-right: auto;
+    height: 92px;
+    width: 272px;
+    padding-top: 30px;
+}
+.searchBar{
+    margin-left: 35%;
+    width: 38%;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+/* navbar */
+
+ul {
+    font-family: arial,sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: small
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+  }
+  .rightside{
+    float: right;
+  }
+  .googleSearchBtn{
+    display: inline-block;
+    margin-left: 40%;
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 19px 20px;
+    margin-left: 10%;
+    min-width: 168px;
+   
+  }
+
+  .btnWrapper{
+    margin-left: 400px;
+    padding: 0; 
+    width: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+    
+    
+  }
+  .googleOffered{
+    margin-left: 520px;
+    line-height: 28px;
+    font-size: small;
+  }
+.footer{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    font-size: 10pt;
+    position: absolute;
+    width: 100%;
+}
+
+.bottomFooter{
+    word-spacing: 20px;
+    font-family: arial,sans-serif;
+    display: flex;
+    color: #5f6368;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 27px;
+}
+ .itemcenter {
+    text-align: center;
+   
+    line-height: 40px;
+  }
+  .itemright {
+    text-align: right;
+    margin-right: 30px;
+    line-height: 40px;
+  }
+  .countryName{
+    font-size: 17px;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+  
+    text-align: left;
+  }
